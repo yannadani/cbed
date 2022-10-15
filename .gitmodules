@@ -1,0 +1,3 @@
+[submodule "models/dibs"]
+	path = models/dibs
+	url = https://github.com/yannadani/dibs.git

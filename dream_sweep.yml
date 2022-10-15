@@ -1,0 +1,38 @@
+program: experimental_design.py
+method: grid
+parameters:
+  seed:
+    values:
+      - 1
+      - 2
+      - 3
+  strategy:
+    values:
+      - random
+      - softbald
+      - acd
+  dream4_name:
+    values:
+      - InSilicoSize10-Ecoli1
+      - InSilicoSize10-Ecoli2
+      - InSilicoSize10-Yeast1
+      - InSilicoSize10-Yeast1
+  num_starting_samples:
+    value: 100
+  num_samples:
+    value: 100
+  batch_size:
+    value: 10
+  model:
+    value: dibs_nonlinear
+  env:
+    value: dream4
+  dream4_path:
+    value: envs/dream4/configurations
+  num_batches:
+    value: 20
+command:
+  - ${env}
+  - python
+  - ${program}
+  - ${args}
