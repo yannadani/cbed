@@ -1,5 +1,10 @@
-# Causal Bayesian Experimental Design
+[![arXiv Badge](https://img.shields.io/badge/arXiv-B31B1B?logo=arxiv&logoColor=fff&style=for-the-badge)]([http://google.com.au/](https://arxiv.org/abs/2203.02016)) 
+
+
+# Causal Bayesian Experimental Design (CBED)
+
 ## Overview 
+
 This is the official repository with the python implementation for the paper "[Interventions, Where and How? Experimental Design for Causal Models at Scale](https://arxiv.org/abs/2203.02016)", NeurIPS (2022). 
 
 The repository contains different acquisition strategies for optimal targeted interventions to learn causal models, including the proposed approach _CBED_ (which acquires both intervention target and value). The provided repository further contains two different batching strategies: the greedy strategy and the stochastic batch strategy.
