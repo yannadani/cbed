@@ -14,3 +14,11 @@ if (!require("pcalg"))
 
 if (!require("SID"))
     install.packages('https://cran.r-project.org/src/contrib/Archive/SID/SID_1.0.tar.gz')
+
+if (!require("Rcpp"))
+    install.packages('Rcpp', repos='http://cran.us.r-project.org')
+if (!require("RcppEigen"))
+    install.packages('https://cran.r-project.org/src/contrib/Archive/RcppEigen/RcppEigen_0.3.3.7.0.tar.gz')
+if (!require("gRbase"))
+    install.packages('gRbase', repos='http://cran.us.r-project.org')
+
