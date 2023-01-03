@@ -1,4 +1,4 @@
-[![arXiv Badge](https://img.shields.io/badge/arXiv-B31B1B?logo=arxiv&logoColor=fff&style=for-the-badge)]([http://google.com.au/](https://arxiv.org/abs/2203.02016)) 
+[![arXiv Badge](https://img.shields.io/badge/arXiv-B31B1B?logo=arxiv&logoColor=fff&style=for-the-badge)](https://arxiv.org/abs/2203.02016) 
 
 
 # Causal Bayesian Experimental Design (CBED)
